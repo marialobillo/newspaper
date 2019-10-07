@@ -133,3 +133,6 @@ LOOUT_REDIRECT_URL = 'home'
 
 # newspaper
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# change password 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
