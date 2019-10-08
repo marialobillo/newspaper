@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
     # 3rd party
     #'crispy_forms',
 ]
@@ -136,3 +137,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # change password 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# time zone
+TIME_ZONE = 'Europe/Madrid'
